@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Training / experiment outputs
+outputs/
+wandb/
+*.ckpt
+*.pth
+
+# Datasets / large artifacts
+*.zarr
+*.zarr.zip
+data/
+robot_logs/
+
+# Env
+.venv/
+venv/

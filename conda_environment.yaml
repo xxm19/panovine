@@ -1,0 +1,35 @@
+name: panovine
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=22.1
+  - pytorch=2.1.0
+  - pytorch-cuda=12.1
+  - torchvision=0.16.0
+  - numpy=1.24
+  - scipy=1.11
+  - numba=0.57
+  - pandas=2.1
+  - py-opencv=4.7
+  - matplotlib=3.7
+  - pyyaml=6.0
+  - tqdm=4.65
+  - zarr=2.16
+  - numcodecs=0.11
+  - hydra-core=1.2.0
+  - wandb=0.15.8
+  - dill=0.3.7
+  - einops=0.6.1
+  - diffusers=0.18.2
+  - timm=0.9.7
+  - accelerate=0.24
+  - filelock=3.13
+  - pytz=2023.3
+  - pyserial=3.5
+  - ipykernel=6.23
+  - pip:
+    - threadpoolctl==3.2
+    - imagecodecs==2023.9.18
